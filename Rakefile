@@ -1,7 +1,5 @@
 require "bundler/gem_tasks"
-require "rspec/core/rake_task"
 
-RSpec::Core::RakeTask.new(:spec)
 
 task :travis do
   serverport = IO.read(File.expand_path("../spec/PORT",__FILE__)).strip # port number that we are using
