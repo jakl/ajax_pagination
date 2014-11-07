@@ -22,6 +22,5 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency "rails", '~> 3.0'
   s.add_runtime_dependency "jquery-rails", '>= 1.0.17' # require jQuery 1.7+
-  s.add_runtime_dependency "jquery-historyjs"
-
+  # remove dependency on history, add it manually
 end
