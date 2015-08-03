@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "ajax_pagination/version"
 
 Gem::Specification.new do |s|
-  s.name        = "yz-ajax_pagination"
+  s.name        = "ajax_pagination"
   s.version     = AjaxPagination::VERSION
   s.authors     = ["Ronald Ping Man Chan"]
   s.email       = ["ronalchn@gmail.com"]
