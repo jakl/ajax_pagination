@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
 
-  s.add_runtime_dependency "rails", '~> 3.0'
+  s.add_runtime_dependency "rails", '~> 4.0'
   s.add_runtime_dependency "jquery-rails", '>= 1.0.17' # require jQuery 1.7+
   # remove dependency on history, add it manually
 end
